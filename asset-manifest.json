@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/sathya/%20/static/css/main.35de159e.css",
-    "main.js": "/sathya/%20/static/js/main.a033d12e.js",
-    "static/js/787.85114087.chunk.js": "/sathya/%20/static/js/787.85114087.chunk.js",
-    "static/media/resume.pdf": "/sathya/%20/static/media/resume.00a29c118c86e501a091.pdf",
-    "static/media/Radar-System.jpg": "/sathya/%20/static/media/Radar-System.e47512694953008990f5.jpg",
-    "static/media/MODERNGUI1.jpg": "/sathya/%20/static/media/MODERNGUI1.36286288ea406900c6b5.jpg",
-    "static/media/slick.svg": "/sathya/%20/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/sathya/%20/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/sathya/%20/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/sathya/%20/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/sathya/%20/index.html",
-    "main.35de159e.css.map": "/sathya/%20/static/css/main.35de159e.css.map",
-    "main.a033d12e.js.map": "/sathya/%20/static/js/main.a033d12e.js.map",
-    "787.85114087.chunk.js.map": "/sathya/%20/static/js/787.85114087.chunk.js.map"
+    "main.css": "/sathya/static/css/main.950227b1.css",
+    "main.js": "/sathya/static/js/main.e706f055.js",
+    "static/js/787.85114087.chunk.js": "/sathya/static/js/787.85114087.chunk.js",
+    "static/media/resume.pdf": "/sathya/static/media/resume.00a29c118c86e501a091.pdf",
+    "static/media/Radar-System.jpg": "/sathya/static/media/Radar-System.e47512694953008990f5.jpg",
+    "static/media/MODERNGUI1.jpg": "/sathya/static/media/MODERNGUI1.36286288ea406900c6b5.jpg",
+    "static/media/slick.svg": "/sathya/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/sathya/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/sathya/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/sathya/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/sathya/index.html",
+    "main.950227b1.css.map": "/sathya/static/css/main.950227b1.css.map",
+    "main.e706f055.js.map": "/sathya/static/js/main.e706f055.js.map",
+    "787.85114087.chunk.js.map": "/sathya/static/js/787.85114087.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.35de159e.css",
-    "static/js/main.a033d12e.js"
+    "static/css/main.950227b1.css",
+    "static/js/main.e706f055.js"
   ]
 }
