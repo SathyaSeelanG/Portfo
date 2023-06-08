@@ -1,0 +1,124 @@
+.contact-form {
+    width: 500px;
+    height: 550px;
+    margin: 0 auto;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .contact-form textarea {
+    height: 150px;
+  }
+  
+  .contact-form input[type="submit"] {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .contact-form input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  .contact-form .success-message,
+  .contact-form .error-message {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .contact-form .success-message {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .contact-form .error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  .contact-form {
+    border: 1px solid #ccc; /* sets the border to 1 pixel wide and a light gray color */
+  }
+  
+  /* you can also use a shorthand version of the border property */
+  .contact-form {
+    border: 1px solid #cc1919;
+    /* the shorthand version is: border: [width] [style] [color]; */
+  }
+  
+  /* to set the color of the border only, you can use the border-color property */
+  .contact-form {
+    border: 1px solid;
+    border-color: #be1c1c; /* sets the border color to a light gray */
+  }
+  .contact-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .contact-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    resize: none;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }

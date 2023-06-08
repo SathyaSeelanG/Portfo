@@ -1,0 +1,127 @@
+.skills-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.skill {
+  flex: 0 0 auto;
+  /* margin-right: 20px; */
+  /* margin-bottom: 20px; */
+
+
+  
+  
+}
+
+.skill-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.skill-box {
+  background-color: #e8e8e8;
+  padding: 8px;
+  border-radius: 37px;
+  width: fit-content;
+  height: fit-content;
+  transition: transform 0.3s ease-in-out;
+}
+
+.skill-box:hover {
+  transform: scale(1.4);
+}
+
+.skill-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.skill-level {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.python {
+  width: 90px;
+  margin-left: 30px;
+  margin-top: -70px;
+}
+
+.java {
+  width: 90px;
+  margin-left: 150px;
+  margin-top: -66px;
+}
+
+.clang {
+  width: 50px;
+  height: 50px;
+  margin-left: 270px;
+  margin-top: -65px;
+}
+
+.cplus {
+  width: 50px;
+  margin-left: 350px;
+  margin-top: -65px;
+}
+
+.html {
+  width: 60px;
+  margin-left: 430px;
+  margin-top: -64px;
+}
+
+.css {
+  width: 60px;
+  margin-left: 520px;
+  margin-top: -64px;
+}
+
+.javascript {
+  width: 140px;
+  margin-left: 610px;
+  margin-top: -63px;
+}
+
+.reactjs {
+  width: 110px;
+  margin-left: 770px;
+  margin-top: -62px;
+}
+
+.nodejs {
+  width: 110px;
+  margin-left: 910px;
+  margin-top: -64px;
+}
+
+.django {
+  width: 90px;
+  margin-left: 1050px;
+  margin-top: -66px;
+}
+
+.mysql {
+  width: 90px;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.android {
+  width: 200px;
+  margin-left: 150px;
+  margin-top: -63px;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .skills-container {
+    justify-content: flex-start;
+  }
+
+}

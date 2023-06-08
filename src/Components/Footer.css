@@ -1,0 +1,22 @@
+.page-footer {
+    height: 180px; /* Replace with desired height */
+    width: 100%;/* Additional styles as needed */
+    background-color: black;
+  }
+.foot{
+color: white;
+
+}
+  .Contact {
+    background-color: rgb(18, 17, 17);
+    /* Additional styles as needed */
+  }
+  .social{
+    background-color: black;
+    
+  }
+  
+  .social img{
+
+    border-radius: 50%;
+  }

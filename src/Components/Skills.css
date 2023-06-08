@@ -1,0 +1,99 @@
+/* #skills {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .skill {
+    width: 250px;
+    margin: 20px;
+  }
+  
+  .skill-name {
+    margin-bottom: 10px;
+  }
+  
+  .skill-level {
+    height: 20px;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .skill-level-bar {
+    height: 100%;
+    background-color: #4caf50;
+  }
+  
+  .skill-level-value {
+    display: block;
+    margin-top: 10px;
+  } */
+  
+  /* skills new */
+
+  .skills-container {
+    margin-top: 80px;
+    margin-left: 90px;
+    margin-right: 90px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .skills-column {
+    width: 48%; /* Adjust the width as per your design */
+  }
+  
+  .skill {
+    margin-bottom: 1rem;
+  }
+  
+  .skill-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .skill-level {
+
+    height: 15px;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    overflow: hidden;
+    /* margin-left: 90px;
+    margin-right: 90px; */
+    /* height: 10px;
+    width: 250px;
+
+    background-color: #ccc;
+    border-radius: 5px;
+    overflow: hidden; */
+
+  }
+  
+  .skill-level-bar {
+    height: 80%;
+    width: 0;
+    background-color: #00bcd4; /* Adjust the color as per your design */
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .skill-level-value {
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .skills-container {
+      flex-direction: column;
+    }
+  
+    .skills-column {
+      width: 100%;
+    }
+  }
+  

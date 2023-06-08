@@ -1,0 +1,89 @@
+.slider .slick-slide img {
+    width: 150%;
+    height: 180%;
+  }
+  .slider .slick-slide img {
+    width: 180%;
+    height: auto;
+  }
+  .slider {
+    position: relative;
+    height: 500px;
+    width: 800px;
+  }
+  @media (max-width: 768px) {
+    .slider {
+      height: 300px;
+      width: 500px;
+    }
+  }
+    /* Add a highlight border to the active slide */
+.slick-current .certificate {
+  border: 2px solid #ffcc00;
+}
+
+/* Style the certificate title */
+.certificate h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Style the certificate description */
+.certificate p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Style the 'View Certificate' button */
+.certificate a {
+  font-size: 1rem;
+  color: #ffcc00;
+  text-decoration: none;
+  border: 1px solid #ffcc00;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  display: inline-block;
+}
+
+/* Style the 'View Certificate' button on hover */
+.certificate a:hover {
+  background-color: #ffcc00;
+  color: #000;
+}
+
+  
+ 
+ .slider {
+    position: relative;
+    height: 150%;
+  }
+  
+  .slider .slick-slide img {
+    width: 150%;
+  }
+  
+  .slider .slick-dots {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+  }
+  
+  .slider .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .slider .slick-dots li button {
+    border: none;
+    background-color: #bbb;
+    border-radius: 50%;
+    height: 100px;
+    width: 150px;
+  }
+  
+  .slider .slick-dots li.slick-active button {
+    background-color: #008080;
+  }
+  

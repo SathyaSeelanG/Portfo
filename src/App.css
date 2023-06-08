@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+
+.App {
+  /* Styles for all screen sizes */
+
+  /* Mobile devices */
+  @media (max-width: 768px) {
+    /* Styles for mobile devices */
+  }
+
+  /* Desktop devices */
+  @media (min-width: 769px) {
+    /* Styles for desktop devices */
+  }
+}
+
+
+.mainpage{
+  background-color: white;
+  
+  /* height: 100vh;  width: 80%; */
+}
+
+

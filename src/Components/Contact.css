@@ -1,0 +1,33 @@
+.social {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .social a {
+    margin-right: 1rem;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .social a:last-child {
+    margin-right: 0;
+  }
+  
+  .social a:hover {
+    transform: translateY(-5px);
+  }
+  
+  .social img {
+    display: block;
+    max-width: 100%;
+  }
+
+  .contact-heading {
+    text-align: left;
+    margin-left: 1rem; /* Optional: add some margin to the left of the heading */
+  }
+  .Contact {
+    background-color: black;
+    /* Additional styles as needed */
+  }
+   

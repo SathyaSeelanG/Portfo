@@ -1,0 +1,132 @@
+.header-container {
+    background-color: #0f0f0f; /* Replace with your desired color */
+    height: 30px;
+  }
+  
+  .header-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    z-index: 999;
+    transition: background-color 0.3s;
+  }
+  
+  .sticky {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 10px;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .menu-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-toggle-box {
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .menu-toggle {
+    width: 1px;
+    height: 30px;
+    color: #0f0101;
+    background-color: #32b058;
+    position: relative;
+    transition: transform 0.3s;
+  }
+  
+  /* .open .menu-toggle {
+    transform: rotate(45deg);
+  } */
+  
+  .open .menu-toggle:before,
+  /* .open .menu-toggle:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #b41f1f;
+    position: absolute;
+    transition: transform 0.3s;
+  } */
+  
+  .open .menu-toggle:before {
+    transform: translateY(-8px);
+  }
+  
+  .open .menu-toggle:after {
+    transform: translateY(8px);
+  }
+  
+  .menu-list {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #1d2101;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(4, 61, 19, 0.1);
+    display: none;
+  }
+  
+  .open .menu-list {
+    display: block;
+  }
+  
+  .menu-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-list li {
+    margin-bottom: 10px;
+  }
+  
+  .menu-list li a {
+    text-decoration: none;
+    color: #ecdddd;
+    font-weight: bold;
+    padding: 5px;
+  }
+  
+  .menu-list li a:hover {
+    color: #02f085;
+  }
+  
+
+  .download-resume-button {
+    background-color: #12c761;
+    color: #61121256;
+
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .download-resume-button:hover {
+    background-color: #1f4ca6;
+  }
+
+  .socialicon{
+    background-color: rgb(244, 244, 244);
+    height: fit-content;
+  }
+  
+  .socialicon img{
+
+    border-radius: 50%;
+  }
