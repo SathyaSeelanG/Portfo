@@ -16,7 +16,7 @@
     "sweetalert2": "^11.7.8",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "http://sathyaseelang.github.io/Portfolio",
+  "homepage": "http://sathyaseelang.github.io/Portfolio_SathyaSeelan.git",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
